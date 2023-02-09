@@ -1,8 +1,8 @@
-import React, { ReactElement } from 'react';
+import React from 'react';
 
 import Layout from '@components/Layout';
 
-const Projects = (): ReactElement => (
+const Projects: React.FC = () => (
   <Layout title="Projects">
     <h1>PROJECTS PAGE</h1>
   </Layout>
