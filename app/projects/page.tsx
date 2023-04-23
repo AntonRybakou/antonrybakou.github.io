@@ -8,10 +8,12 @@ export const metadata = {
 
 const Page: React.FC = () => {
   return (
-    <main>
+    <>
       <h1>PROJECTS PAGE</h1>
-      <Link href={'/'}>Go back</Link>
-    </main>
+      <Link href={'/'} className="text-blue-600">
+        Go back
+      </Link>
+    </>
   );
 };
 

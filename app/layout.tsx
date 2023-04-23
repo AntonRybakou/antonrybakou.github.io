@@ -18,9 +18,9 @@ const RootLayout = ({ children }: { children: React.ReactNode }): ReactElement =
         <meta charSet="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      <body>
+      <body className="mx-5">
         <Header />
-        {children}
+        <main>{children}</main>
         <Footer />
       </body>
     </html>

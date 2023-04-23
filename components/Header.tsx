@@ -4,15 +4,15 @@ import Link from 'next/link';
 
 const Header: React.FC = () => (
   <header>
-    <nav>
+    <nav className="border">
       <ul>
-        <li>
+        <li className="text-blue-600">
           <Link href={'/'}>About</Link>
         </li>
-        <li>
+        <li className="text-blue-600">
           <Link href={'/projects'}>Projects</Link>
         </li>
-        <li>
+        <li className="text-blue-600">
           <Link href={'/contacts'}>Contact me</Link>
         </li>
       </ul>
